@@ -1,0 +1,164 @@
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(44, 42, 42, 0.315)), url('cotton.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.btn {
+    padding: 20px 50px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    border-radius: 70px;
+    transition: all 0.5s ease;
+}
+
+.btn-brand {
+    background-color: rgba(189, 185, 126, 0.966);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-brand :hover {
+    border: 2px solid #a7a7a7;
+}
+
+section {
+    padding: 100PX 0;
+    background: linear-gradient(to right, hsla(0, 2%, 62%, 0.856), rgba(238, 90, 90, 0.315));
+    background-color: blanchedalmond;
+}
+
+#about h3 {
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(113, 116, 115);
+}
+
+.card-img-top {
+    width: 40%;
+}
+
+.card{
+    transition: all 0.4s ease;
+}
+
+.card:hover{
+    background-color: pink;
+}
+.card:hover .card-text, .card:hover .card-title{
+    color: rgb(0, 0, 0);
+}
+#services .btn-brand:hover{
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+}
+
+.testimonials img{
+    width: 75px;
+    border-radius: 50%;
+}
+
+.testimonials{
+    border: 2px solid rgb(255, 145, 145);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+.testimonials a{
+    color: rgb(0, 0, 0);
+}
+
+.testimonials:hover {
+    background-color: pink;
+    color: rgb(87, 84, 84);
+}
+
+#faq{
+    background-color: #fff;
+}
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button{
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body{
+    border-left: 3px solid black;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #a7a7a7;
+    color: black;
+}
+
+.accordion-button:hover{
+    background-color:  #a7a7a7;
+    color: black;
+}
+#cta {
+    height: 70vh;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(44, 42, 42, 0.315)), url('cotton.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, hsla(0, 2%, 62%, 0.856), rgba(238, 90, 90, 0.315));
+    background-color: blanchedalmond;
+}
+
+#footer ul.list-unstyled li a{
+ color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a{
+     color: rgb(0, 0, 0);
+    
+}
+
+.btn-outline-light{
+    border-color: rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
+    border-radius: 0;
+}
+
+@media screen and (max-width:767px){
+    #about img{
+        height:300px;
+        width: 300px
+    }
+
+    #services .card{
+        margin-top:20px;
+    }
+
+    
+}
